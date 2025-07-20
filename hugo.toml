@@ -1,0 +1,5 @@
+baseURL = "https://indig0-zero.github.io/"        # Thay <USERNAME> bằng tên GitHub của bạn
+languageCode = "en-us"
+title = "My Blog Site"
+theme = "reimu"
+publishDir = "docs"                              # Sinh ra nội dung vào thư mục docs :contentReference[oaicite:10]{index=10}
