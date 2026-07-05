@@ -1,4 +1,11 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://indig0-zero.github.io/'
 locale = 'en-us'
-title = 'My New Hugo Project'
+title = 'Shake it !!!'
 theme = "reimu"
+
+defaultContentLanguage = "vi"
+hasCJKLanguage = true
+
+[markup]
+  [markup.highlight]
+    noClasses = false
