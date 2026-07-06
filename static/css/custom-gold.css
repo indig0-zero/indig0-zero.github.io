@@ -482,3 +482,45 @@ header {
   border-radius: 10px !important;
   padding: 12px 18px !important;
 }
+/* Avatar gold glow */
+.sidebar-wrap img,
+.sidebar-wrap .avatar img,
+#profile img,
+.profile img {
+  box-shadow: 0 0 32px rgba(212, 160, 23, 0.75) !important;
+  border-radius: 50% !important;
+}
+/* Sidebar menu gold buttons */
+.sidebar-wrap .menu a,
+.sidebar-wrap nav a,
+.sidebar-wrap a[href="/"],
+.sidebar-wrap a[href="/about/"],
+.sidebar-wrap a[href="/archives/"],
+.sidebar-wrap a[href="/achievements/"] {
+  border: 4px solid rgba(212, 160, 23, 0.6) !important;
+  color: #d4a017 !important;
+  background: #050505 !important;
+  box-shadow: none !important;
+}
+
+/* Hover */
+.sidebar-wrap .menu a:hover,
+.sidebar-wrap nav a:hover,
+.sidebar-wrap a[href="/"]:hover,
+.sidebar-wrap a[href="/about/"]:hover,
+.sidebar-wrap a[href="/archives/"]:hover,
+.sidebar-wrap a[href="/achievements/"]:hover {
+  border-color: #f0c94d !important;
+  color: #f0c94d !important;
+  box-shadow: 0 0 18px rgba(212, 160, 23, 0.7) !important;
+}
+
+/* Active/home-like selected button */
+.sidebar-wrap .menu a.active,
+.sidebar-wrap nav a.active,
+.sidebar-wrap a.active {
+  background: #d4a017 !important;
+  color: #ffffff !important;
+  border-color: #f0c94d !important;
+  box-shadow: 0 0 22px rgba(212, 160, 23, 0.8) !important;
+}
