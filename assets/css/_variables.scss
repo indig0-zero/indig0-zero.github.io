@@ -1,0 +1,165 @@
+// Colors
+:root {
+  /* Gold palette */
+  --red-0: #caa43a;
+  --red-1: #d4af37;
+  --red-2: #e6c65a;
+  --red-3: #b9922b;
+  --red-4: #9f7c21;
+  --red-5: #7a5f19;
+  --red-5-5: #5d4813;
+  --red-6: #44350f;
+
+  --grey-9: #9a9a9a;
+  --grey-7: #777;
+
+  --color-archive-year: #999;
+  --color-default: #999;
+  --color-border: var(--red-5);
+  --color-link: var(--red-1);
+
+  /* Important layering:
+     background = page outside panels
+     wrap       = cards/sidebar/player/widget panels */
+  --color-background: #0a0a0a;
+  --color-code-background: rgba(232, 232, 232, 0.1);
+  --color-header-background: #0a0a0a;
+  --color-footer-background: #0a0a0a;
+  --color-mobile-nav-background: #0a0a0a;
+  --color-wrap: #101010;
+  --color-sticky: #101010;
+
+  --color-h2-border: #252525;
+  --color-meta-shadow: rgba(0, 0, 0, 0.2);
+  --color-hover-shadow: rgba(0, 0, 0, 0.35);
+  --color-h2-after: var(--red-1);
+  --color-red-6-shadow: rgba(212, 175, 55, 0.55);
+  --color-red-3-shadow: rgba(212, 175, 55, 0.22);
+
+  --highlight-nav: #{$dark-highlight-nav};
+  --highlight-scrollbar: #{$dark-highlight-scrollbar};
+  --highlight-background: #{$dark-highlight-background};
+  --highlight-selection: #{$dark-highlight-selection};
+  --highlight-foreground: #{$dark-highlight-foreground};
+  --highlight-comment: #{$dark-highlight-comment};
+  --highlight-red: #{$dark-highlight-red};
+  --highlight-orange: #{$dark-highlight-orange};
+  --highlight-yellow: #{$dark-highlight-yellow};
+  --highlight-green: #{$dark-highlight-green};
+  --highlight-aqua: #{$dark-highlight-aqua};
+  --highlight-blue: #{$dark-highlight-blue};
+  --highlight-purple: #{$dark-highlight-purple};
+  --highlight-deletion: #{$dark-highlight-deletion};
+  --highlight-deletion-bg: #{$dark-highlight-deletion-bg};
+  --highlight-addition: #{$dark-highlight-addition};
+  --highlight-addition-bg: #{$dark-highlight-addition-bg};
+
+  --shadow-meta: 0 0 5px 2px var(--color-meta-shadow);
+  --shadow-meta-hover: 0 0 6px 4px var(--color-meta-shadow);
+
+  --shadow-card: 0 0 10px 2px var(--color-hover-shadow);
+  --shadow-card-hover: 0 0 10px 4px var(--color-hover-shadow);
+
+  --shadow-red-6-shadow: 0 0 8px var(--color-red-6-shadow);
+}
+
+[data-theme="dark"] {
+  &:root {
+    --red-0: #caa43a;
+    --red-1: #d4af37;
+    --red-2: #e6c65a;
+    --red-3: #b9922b;
+    --red-4: #9f7c21;
+    --red-5: #7a5f19;
+    --red-5-5: #5d4813;
+    --red-6: #44350f;
+
+    --grey-9: #9a9a9a;
+    --grey-7: #777;
+
+    --color-archive-year: #999;
+    --color-default: #999;
+    --color-border: var(--red-5);
+    --color-link: var(--red-1);
+
+    --color-background: #0a0a0a;
+    --color-code-background: rgba(232, 232, 232, 0.1);
+    --color-header-background: #0a0a0a;
+    --color-footer-background: #0a0a0a;
+    --color-mobile-nav-background: #0a0a0a;
+    --color-wrap: #101010;
+    --color-sticky: #101010;
+
+    --color-h2-border: #252525;
+    --color-meta-shadow: rgba(0, 0, 0, 0.2);
+    --color-hover-shadow: rgba(0, 0, 0, 0.35);
+    --color-h2-after: var(--red-1);
+    --color-red-6-shadow: rgba(212, 175, 55, 0.55);
+    --color-red-3-shadow: rgba(212, 175, 55, 0.22);
+
+    --highlight-nav: #{$dark-highlight-nav};
+    --highlight-scrollbar: #{$dark-highlight-scrollbar};
+    --highlight-background: #{$dark-highlight-background};
+    --highlight-selection: #{$dark-highlight-selection};
+    --highlight-foreground: #{$dark-highlight-foreground};
+    --highlight-comment: #{$dark-highlight-comment};
+    --highlight-red: #{$dark-highlight-red};
+    --highlight-orange: #{$dark-highlight-orange};
+    --highlight-yellow: #{$dark-highlight-yellow};
+    --highlight-green: #{$dark-highlight-green};
+    --highlight-aqua: #{$dark-highlight-aqua};
+    --highlight-blue: #{$dark-highlight-blue};
+    --highlight-purple: #{$dark-highlight-purple};
+    --highlight-deletion: #{$dark-highlight-deletion};
+    --highlight-deletion-bg: #{$dark-highlight-deletion-bg};
+    --highlight-addition: #{$dark-highlight-addition};
+    --highlight-addition-bg: #{$dark-highlight-addition-bg};
+  }
+
+  img {
+    filter: brightness(70%);
+  }
+
+  // 排除 lightbox
+  .pswp__img {
+    opacity: 1;
+    filter: none;
+    animation: none;
+  }
+
+  img.lazyloaded {
+    opacity: 1;
+    animation: blur-darken 0.8s ease-in-out forwards !important;
+  }
+}
+
+// Fonts
+$font-basic: $custom-basic-families, $basic-families, $local-basic-families;
+$font-code: $custom-code-families, $code-families, $local-code-families;
+
+$font-size: 14px;
+$line-height: 1.67;
+$line-height-title: 1.2em;
+
+// Header
+$logo-size: 40px;
+$subtitle-size: 18px;
+$banner-height: 35vh;
+
+// Layout
+$article-padding: 20px;
+$mobile-nav-width: 280px;
+$block-margin: 50px;
+
+// Media queries
+$mq-mobile: "screen and (max-width: 479px)";
+$no-mobile: "screen and (min-width: 480px)";
+$mq-tablet: "screen and (min-width: 480px) and (max-width: 767px)";
+$mq-normal: "screen and (min-width: 768px)";
+$mg-normal: "screen and (max-width: 767px)";
+$mq-large: "screen and (min-width: 960px)";
+$mg-large: "screen and (max-width: 959px)";
+$mq-extra-large: "screen and (min-width: 1242px)";
+$mg-extra-large: "screen and (max-width: 1241px)";
+$post-radius: 10px;
+$tag-radius: 8px;

@@ -3,8 +3,9 @@ locale = 'en-us'
 title = 'Shake it !!!'
 theme = "reimu"
 
-defaultContentLanguage = "vi"
+defaultContentLanguage = "en"
 hasCJKLanguage = true
+languageCode = "en-us"
 
 [markup]
   [markup.highlight]

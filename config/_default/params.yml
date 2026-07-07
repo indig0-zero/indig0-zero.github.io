@@ -8,13 +8,13 @@ menu:
   - name: home
     url: /
     icon: e632
-  - name: About
+  - name: about
     url: /about/
     icon: e628
-  - name: Archives
+  - name: archives
     url: /archives/
     icon: e604
-  - name: Achievements
+  - name: achievements
     url: /achievements/
     icon: e621
 
@@ -47,7 +47,7 @@ subtitle:
     showCursor: true            # 是否显示闪烁的字符
     cursorChar: "|"             # 字符
     smartBackspace: false       # 智能退格，只删除不同的部分
-  text: "少女祈祷中..."        # 当 typing.enable = false 时使用
+  text: "Shake it !!!"        # 当 typing.enable = false 时使用
 
 banner: "images/banner.png"
 # You can also write it in the form of the following url
@@ -654,7 +654,7 @@ injector:
 
 # Experimental, may have a lot of bugs, open with caution!
 pjax:
-  enable: false
+  enable: true
 
 # Experimental
 # https://github.com/GoogleChromeLabs/quicklink
@@ -695,18 +695,23 @@ player:
   # if you enable meting, you must enable aplayer first
   aplayer:
     # https://github.com/DIYgod/APlayer
-    enable: false
+    enable: true
     options:
-      audio: []
-      fixed: true
-      autoplay:
-      loop:
-      order:
-      preload:
+      audio: [
+        name: "Sample Track",
+        artist: "Your Artist",
+        url: "/music/Velocity.mp3",
+        cover: "/images/covers/default-cover.png"
+      ]
+      fixed: false
+      autoplay: false
+      loop: "all"
+      order: "list"
+      preload: "metadata"
       volume:
       mutex:
-      listFolded:
-      lrcType:
+      listFolded: false
+      lrcType: 3
   meting:
     # https://github.com/metowolf/MetingJS
     # if you want to use meting, please enable aplayer first
