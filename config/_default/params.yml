@@ -698,10 +698,132 @@ player:
     enable: true
     options:
       audio: [
-        name: "Sample Track",
-        artist: "Your Artist",
-        url: "/music/Velocity.mp3",
-        cover: "/images/covers/default-cover.png"
+        {
+        name: "PUT SOME SWAG ON",
+        artist: "nowimyoung, HAON",
+        url: "/music/PUT_SOME_SWAG_ON.mp3",
+        cover: "/images/covers/PUT_SOME_SWAG_ON.png"
+      },
+      {
+        name: "EXCLUSIVE",
+        artist: "nowimyoung",
+        url: "/music/EXCLUSIVE.mp3",
+        cover: "/images/covers/PUT_SOME_SWAG_ON.png"
+      },
+      {
+        name: "FASHO",
+        artist: "GroovyRoom, pH-1, HAON, TRADE L, Woodie Gochild",
+        url: "/music/FASHO.mp3",
+        cover: "/images/covers/FASHO.png"
+      },
+      {
+        name: "HEAVEN",
+        artist: "nowimyoung",
+        url: "/music/HEAVEN.mp3",
+        cover: "/images/covers/HEAVEN.png"
+      },
+      {
+        name: "SORRY",
+        artist: "nowimyoung",
+        url: "/music/SORRY.mp3",
+        cover: "/images/covers/HEAVEN.png"
+      },
+      {
+        name: "SICKUHH",
+        artist: "NMIXX, Kid Milli",
+        url: "/music/SICKUHH.mp3",
+        cover: "/images/covers/SICKUHH.png"
+      },
+      {
+        name: "KNOW ABOUT ME",
+        artist: "NMIXX",
+        url: "/music/KNOW_ABOUT_ME.mp3",
+        cover: "/images/covers/KNOW_ABOUT_ME.png"
+      },
+      {
+        name: "KARMA COLLECTOR",
+        artist: "KC, Sik-K, HAON, nowimyoung",
+        url: "/music/KARMA_COLLECTOR.mp3",
+        cover: "/images/covers/KARMA_COLLECTOR.png"
+      },
+      {
+        name: "GOLDEN RECIPE",
+        artist: "NMIXX",
+        url: "/music/GOLDEN_RECIPE.mp3",
+        cover: "/images/covers/GOLDEN_RECIPE.png"
+      },
+      {
+        name: "PUBLIC ENEMY",
+        artist: "Sik-K, Lil Moshpit, Roh Yun Ha, Wuuslime",
+        url: "/music/PUBLIC_ENEMY.mp3",
+        cover: "/images/covers/PUBLIC_ENEMY.png"
+      },
+      {
+        name: "HIGH HORSE",
+        artist: "NMIXX",
+        url: "/music/High_Horse.mp3",
+        cover: "/images/covers/High_Horse.png"
+      },
+      {
+        name: "TREESH",
+        artist: "JMIN, Sik-K, HAON",
+        url: "/music/TREESH.mp3",
+        cover: "/images/covers/TREESH.png"
+      },
+      {
+        name: "HEAVY SERENADE",
+        artist: "NMIXX",
+        url: "/music/HEAVY_SERENADE.mp3",
+        cover: "/images/covers/HEAVY_SERENADE.png"
+      },
+      {
+        name: "DITTO",
+        artist: "NewJeans",
+        url: "/music/DITTO.mp3",
+        cover: "/images/covers/DITTO.png"
+      },
+      {
+        name: "HUONGTRAM2026",
+        artist: "Hazel",
+        url: "/music/HUONGTRAM2026.mp3",
+        cover: "/images/covers/HUONGTRAM2026.mp3"
+      },
+      {
+        name: "24 & Carnage",
+        artist: "Hazel",
+        url: "/music/24_Carnage.mp3",
+        cover: "/images/covers/24_Carnage.png"
+      },
+      {
+        name: "Khac Tang",
+        artist: "Hazel",
+        url: "/music/Khac_Tang.mp3",
+        cover: "/images/covers/Khac_Tang.png"
+      },
+      {
+        name: "LOVE$ICK",
+        artist: "Kid Milli",
+        url: "/music/LOVESICK.mp3",
+        cover: "/images/covers/LOVESICK.png"
+      },
+      {
+        name: "con nguoi",
+        artist: "Gio",
+        url: "/music/con_nguoi.mp3",
+        cover: "/images/covers/con_nguoi.png"
+      },
+      {
+        name: "nhat thuc",
+        artist: "Gio",
+        url: "/music/nhat_thuc.mp3",
+        cover: "/images/covers/con_nguoi.png"
+      },
+      {
+        name: "chua phai la yeu",
+        artist: "HURRYKNG",
+        url: "/music/chua_phai_la_yeu.mp3",
+        cover: "/images/covers/chua_phai_la_yeu.png"
+      }
       ]
       fixed: false
       autoplay: false
