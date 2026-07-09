@@ -823,6 +823,180 @@ player:
         artist: "HURRYKNG",
         url: "/music/chua_phai_la_yeu.mp3",
         cover: "/images/covers/chua_phai_la_yeu.png"
+      },
+      {
+        name: "Zero",
+        artist: "NewJeans",
+        url: "/music/Zero.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Attention",
+        artist: "NewJeans",
+        url: "/music/Attention.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "ASAP",
+        artist: "NewJeans",
+        url: "/music/ASAP.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "GODS",
+        artist: "NewJeans",
+        url: "/music/GODS.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Super Shy",
+        artist: "NewJeans",
+        url: "/music/Super_Shy.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "New Jeans",
+        artist: "NewJeans",
+        url: "/music/New_Jeans.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "TOXIC",
+        artist: "MEOVV",
+        url: "/music/TOXIC.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "DROP TOP",
+        artist: "MEOVV",
+        url: "/music/DROP_TOP.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "In My Hands",
+        artist: "MEOVV",
+        url: "/music/In_my_hands.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "You & Me",
+        artist: "Dok2, LeeHi",
+        url: "/music/You_Me.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Siren Remix",
+        artist: "Homies, UNEDUCATED KID, Paul Blanco",
+        url: "/music/siren_remix.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Siren",
+        artist: "Homies",
+        url: "/music/siren.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "KISS KISS KISS",
+        artist: "nowimyoung, Royal 44",
+        url: "/music/KISS.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "MAMA",
+        artist: "Lil Moshpit, Tray B, Jeffrey White, UNEDUCATED KID",
+        url: "/music/MAMA.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "MOSHPIT ONLY",
+        artist: "Lil Moshpit, Paul Blanco",
+        url: "/music/moshpit_only.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Flick",
+        artist: "Roh Yunha, BE'O, HAON",
+        url: "/music/Flick.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "SUMMER",
+        artist: "BE'O, Paul Blanco",
+        url: "/music/Summer.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "1,2,3,4,5",
+        artist: "Coogie",
+        url: "/music/1to5.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Alone",
+        artist: "Coogie, LeeHi",
+        url: "/music/alone.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "MY NAME IS",
+        artist: "Fleeky Bang, Tray B",
+        url: "/music/MY_NAME_IS.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "longlive",
+        artist: "Fleeky Bang, Sik-K",
+        url: "/music/longlive.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Ah Shit",
+        artist: "Fleeky Bang, HAON",
+        url: "/music/Ah_Shit.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Nightingale",
+        artist: "OSUN",
+        url: "/music/Nightingale.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Golden Ratio",
+        artist: "OSUN",
+        url: "/music/Golden_Ratio.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "step back b**** cause I'm too fye",
+        artist: "Swings, Kid Milli, YUNHWAY, Raf Sandou, IISO",
+        url: "/music/step_back.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Let Me Down",
+        artist: "Kid Milli, Raf Sandou",
+        url: "/music/Let_Me_Down.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "whenever",
+        artist: "Dress, Raf Sandou, JUNNY",
+        url: "/music/whenever.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Moonwalkin'",
+        artist: "LNGSHOT",
+        url: "/music/Moonwalkin.mp3",
+        cover: "/images/covers/default_cover.png"
+      },
+      {
+        name: "Never Let Go",
+        artist: "LNGSHOT",
+        url: "/music/Never_Let_Go.mp3",
+        cover: "/images/covers/default_cover.png"
       }
       ]
       fixed: false
